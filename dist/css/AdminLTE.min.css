@@ -18,6 +18,7 @@ html, body {
 body {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 400;
+    font-size: 14px;
     overflow-x: hidden;
     overflow-y: auto
 }
@@ -3508,8 +3509,11 @@ table.text-center, table.text-center td, table.text-center th {
 }
 
 .login-page, .register-page {
-    height: auto;
-    background: #d2d6de
+    background: #d2d6de;
+    background-image: url('/main/image/background.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .login-box, .register-box {
@@ -3671,6 +3675,11 @@ table.text-center, table.text-center td, table.text-center th {
     line-height: 28px;
     width: 28px;
     font-size: 1.4em
+}
+
+#btn-login {
+    background-color: cadetblue;
+    border-color: cadetblue;
 }
 
 .btn-social.btn-xs {
